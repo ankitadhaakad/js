@@ -26,3 +26,25 @@ const myFunction =function(){
 myFunction();
 
 console.log(typeof id);
+
+
+//+++++++++++++++++++++++++++++++++++++++++++++++++++++++
+//memory => stack(primitive),heap(non-primitive)
+let myName ="ankitadhakad"
+let anotherName = myName
+anotherName="atoliyadhakad"
+console.log(myName);
+console.log(anotherName);
+
+let userOne={
+    email: "user@gmail.com",
+    upi: "user@ybl"
+}
+
+let userTwo =userOne
+userTwo.email="ankita@google.com"
+console.log(userOne.email);
+console.log(userTwo.email);
+
+
+
